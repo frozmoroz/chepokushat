@@ -6,6 +6,7 @@ use Carbon\Carbon;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Support\Facades\Log;
+use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 
 class YandexTranslator implements TranslatorInterface
 {
@@ -92,10 +93,11 @@ class YandexTranslator implements TranslatorInterface
             return collect($result->translations)->pluck('text')->toArray();
         }
 
-        Log::error('Translation failed');
-        Log::error('data' . json_encode($result));
+        Log::channel('yaTranslator')->error('Translation failed');
+        Log::channel('yaTranslator')->error("data: $data_json");
+        Log::channel('yaTranslator')->error('message: ' . json_encode($result));
 
-        return [];
+        throw new BadRequestHttpException('Извините, сервис временно недоступен');
     }
 
     /**
