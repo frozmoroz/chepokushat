@@ -76,6 +76,7 @@ class YandexTranslator implements TranslatorInterface
 
         $data_json = json_encode($post_data);
 
+        // TODO: получить перевод из апи яндекс переводчика к сожалению только через курл :(
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
