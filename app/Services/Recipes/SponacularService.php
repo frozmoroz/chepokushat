@@ -7,6 +7,9 @@ use App\Services\Translator\TranslatorInterface;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Log;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Throwable;
 
 class SponacularService implements RecipesInterface
 {
@@ -26,26 +29,34 @@ class SponacularService implements RecipesInterface
 
     /**
      * Построитель запроса к сервису
-     * @throws GuzzleException
+     * @param string $method GET, POST
+     * @param string $path запрос
+     * @param array $params параметры запроса
+     * @return mixed
      */
-    private function builder(string $method, string $path, array $params = [])
+    private function builder(string $method, string $path, array $params = []): mixed
     {
-        $client = new Client($this->headers);
-        $response = $client->request(
-            $method,
-            self::URI . $path,
-            [
-                'query' => $params,
-            ]
-        );
-        $response = json_decode($response->getBody()->getContents());
+        try {
+            $client = new Client($this->headers);
+            $response = $client->request(
+                $method,
+                self::URI . $path,
+                [
+                    'query' => $params,
+                ]
+            );
 
-        return $response;
+            return json_decode($response->getBody()->getContents());
+        } catch (Throwable $e) {
+            Log::channel('sponacular')->error($e->getMessage());
+            return false;
+        }
+
     }
 
     /**
      * Поиск рецептов по строке
-     * @throws GuzzleException
+     * @param string $string поисковая строка
      */
     public function search(string $string): Collection
     {
@@ -56,6 +67,10 @@ class SponacularService implements RecipesInterface
         ];
 
         $recipesList = $this->builder('GET', 'complexSearch', $params);
+
+        if (!$recipesList) {
+            throw new NotFoundHttpException('По данному запросу рецепты не найдены');
+        }
 
         $recipesListTitles = collect($recipesList->results)->pluck('title')->toArray();
         $translatedTitles = $this->translator->translate($recipesListTitles);
@@ -76,9 +91,13 @@ class SponacularService implements RecipesInterface
     {
         $recipeInfo = $this->builder('GET', "$id/information");
 
+        if (!$recipeInfo) {
+            throw new NotFoundHttpException('Рецепт не найдены');
+        }
+
         $recipe = app(RecipeDto::class);
         $recipe->title = $recipeInfo->title;
-//        $recipe->image = $recipeInfo->image;
+        $recipe->image = $recipeInfo->image;
         $recipe->description = $recipeInfo->summary;
         $recipe->instructions = $recipeInfo->instructions;
 

@@ -20,7 +20,7 @@ class TestController extends Controller
 
     public function index(RecipesInterface $recipes)
     {
-//        $data = $recipes->search('макароны');
+//        $data = $recipes->search('члены бабки');
         $data = $recipes->getRecipeById(638420);
         dd($data);
         return view('welcome', $data);
