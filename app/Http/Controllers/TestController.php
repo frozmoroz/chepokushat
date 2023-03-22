@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\Recipes\RecipesInterface;
 use App\Services\Translator\TranslatorInterface;
 use App\Services\UserRepository;
 use Carbon\Carbon;
@@ -17,9 +18,11 @@ use OpenFoodFacts\Api;
 class TestController extends Controller
 {
 
-    public function index(TranslatorInterface $translator)
+    public function index(RecipesInterface $recipes)
     {
-
+//        $data = $recipes->search('макароны');
+        $data = $recipes->getRecipeById(638420);
+        dd($data);
         return view('welcome', $data);
         $trans = ['user'];
         dd($translator->translate($trans));
