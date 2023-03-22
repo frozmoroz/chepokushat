@@ -89,7 +89,7 @@ class YandexTranslator implements TranslatorInterface
         $result = json_decode($result);
 
         if (isset($result->translations)) {
-            return $result->translations;
+            return collect($result->translations)->pluck('text')->toArray();
         }
 
         Log::error('Translation failed');
@@ -113,7 +113,8 @@ class YandexTranslator implements TranslatorInterface
 
         // Если есть, проверяем не протух ли он
         $now = Carbon::now();
-        $tokenTime = Carbon::parse($this->yandexTranslateToken->expiresAt)->subHours(11);
+        $tokenTime = strstr($this->yandexTranslateToken->expiresAt, '.', true);
+        $tokenTime = Carbon::parse($tokenTime)->subHours(11);
         if ($now < $tokenTime) {
             $this->yandexTranslateToken = self::createIamToken();
         }
