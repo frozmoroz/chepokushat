@@ -1,0 +1,76 @@
+version: "3.7"
+services:
+  app:
+    build:
+      args:
+        user: www
+        uid: 1000
+      context: ./
+      dockerfile: Dockerfile
+    image: laraveldev/php
+    container_name: chepokushat-app
+    restart: unless-stopped
+    working_dir: /var/www/
+    volumes:
+      - ./:/var/www
+      - ./php/local.ini:/usr/local/etc/php/conf.d/php.ini
+    environment:
+      XDEBUG_CONFIG: "remote_host=192.168.250.1 remote_enable=1"
+      PHP_IDE_CONFIG: "serverName=Docker"
+    networks:
+      - app-network
+  db_pg:
+    image: postgres:13-buster
+    restart: unless-stopped
+    container_name: chepokushat-db
+    ports:
+      - 5440:5432
+    environment:
+      PGDATABASE: postgres
+      PGUSER: postgres
+      PGPASSWORD: password
+      POSTGRES_PASSWORD: password
+    volumes:
+      - ./postges/database_data:/var/lib/postgresql/data
+    networks:
+      - app-network
+#  elastic_1:
+#    image: elasticsearch:7.14.2
+#    container_name: chepokushat-elasticsearch
+#    restart: unless-stopped
+#    networks:
+#      - app-network
+#    ports:
+#      - "9200:9200"
+#      - "9300:9300"
+#    environment:
+#      discovery.type: single-node
+#      ES_JAVA_OPTS: -Xmx7g -Xms7g
+#  redis:
+#    image: redis:alpine
+#    ports:
+#      - '6379:6379'
+#    volumes:
+#      - ./redis:/data
+#    networks:
+#      - app-network
+  nginx:
+    image: nginx:alpine
+    container_name: chepokushat-nginx
+    restart: unless-stopped
+    ports:
+      - 8897:80
+    volumes:
+      - ./:/var/www
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+      - ./nginx/logs:/var/log/nginx
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.250.0/28
