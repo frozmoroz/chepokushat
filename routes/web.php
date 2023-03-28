@@ -15,3 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [TestController::class, 'index']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('{all}', function () {
+    return view('home');
+})->where('all', '.*');

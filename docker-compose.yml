@@ -34,26 +34,26 @@ services:
       - ./postges/database_data:/var/lib/postgresql/data
     networks:
       - app-network
-#  elastic_1:
-#    image: elasticsearch:7.14.2
-#    container_name: chepokushat-elasticsearch
-#    restart: unless-stopped
-#    networks:
-#      - app-network
-#    ports:
-#      - "9200:9200"
-#      - "9300:9300"
-#    environment:
-#      discovery.type: single-node
-#      ES_JAVA_OPTS: -Xmx7g -Xms7g
-#  redis:
-#    image: redis:alpine
-#    ports:
-#      - '6379:6379'
-#    volumes:
-#      - ./redis:/data
-#    networks:
-#      - app-network
+  #  elastic_1:
+  #    image: elasticsearch:7.14.2
+  #    container_name: chepokushat-elasticsearch
+  #    restart: unless-stopped
+  #    networks:
+  #      - app-network
+  #    ports:
+  #      - "9200:9200"
+  #      - "9300:9300"
+  #    environment:
+  #      discovery.type: single-node
+  #      ES_JAVA_OPTS: -Xmx7g -Xms7g
+  #  redis:
+  #    image: redis:alpine
+  #    ports:
+  #      - '6379:6379'
+  #    volumes:
+  #      - ./redis:/data
+  #    networks:
+  #      - app-network
   nginx:
     image: nginx:alpine
     container_name: chepokushat-nginx
@@ -66,6 +66,20 @@ services:
       - ./nginx/logs:/var/log/nginx
     networks:
       - app-network
+
+#  # Для сборки js
+#  node:
+#    build:
+#      context: .
+#      dockerfile: DockerfileNode
+#    tty: true
+#    ports:
+#      - "5173:5173"
+#    working_dir: /var/www
+#    volumes:
+#      - .:/var/www # Монтируем локальную папку в контейнер как /var/www
+#    networks:
+#      - app-network
 
 networks:
   app-network:

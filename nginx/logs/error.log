@@ -320,3 +320,1468 @@
 2023/03/22 20:36:11 [error] 22#22: *161 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.250.4:9000", host: "localhost:8897"
 2023/03/22 20:36:33 [error] 22#22: *161 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.250.4:9000", host: "localhost:8897"
 2023/03/22 20:36:33 [error] 22#22: *161 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.250.4:9000", host: "localhost:8897"
+2023/03/22 20:40:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/22 20:40:14 [notice] 24#24: gracefully shutting down
+2023/03/22 20:40:14 [notice] 24#24: exiting
+2023/03/22 20:40:14 [notice] 24#24: exit
+2023/03/22 20:40:14 [notice] 27#27: gracefully shutting down
+2023/03/22 20:40:14 [notice] 27#27: exiting
+2023/03/22 20:40:14 [notice] 27#27: exit
+2023/03/22 20:40:14 [notice] 28#28: gracefully shutting down
+2023/03/22 20:40:14 [notice] 28#28: exiting
+2023/03/22 20:40:14 [notice] 28#28: exit
+2023/03/22 20:40:14 [notice] 29#29: gracefully shutting down
+2023/03/22 20:40:14 [notice] 29#29: exiting
+2023/03/22 20:40:14 [notice] 29#29: exit
+2023/03/22 20:40:14 [notice] 30#30: gracefully shutting down
+2023/03/22 20:40:14 [notice] 30#30: exiting
+2023/03/22 20:40:14 [notice] 30#30: exit
+2023/03/22 20:40:14 [notice] 31#31: gracefully shutting down
+2023/03/22 20:40:14 [notice] 31#31: exiting
+2023/03/22 20:40:14 [notice] 31#31: exit
+2023/03/22 20:40:14 [notice] 32#32: gracefully shutting down
+2023/03/22 20:40:14 [notice] 32#32: exiting
+2023/03/22 20:40:14 [notice] 32#32: exit
+2023/03/22 20:40:14 [notice] 33#33: gracefully shutting down
+2023/03/22 20:40:14 [notice] 33#33: exiting
+2023/03/22 20:40:14 [notice] 33#33: exit
+2023/03/22 20:40:14 [notice] 26#26: gracefully shutting down
+2023/03/22 20:40:14 [notice] 26#26: exiting
+2023/03/22 20:40:14 [notice] 26#26: exit
+2023/03/22 20:40:14 [notice] 25#25: gracefully shutting down
+2023/03/22 20:40:14 [notice] 25#25: exiting
+2023/03/22 20:40:14 [notice] 25#25: exit
+2023/03/22 20:40:14 [notice] 23#23: gracefully shutting down
+2023/03/22 20:40:14 [notice] 23#23: exiting
+2023/03/22 20:40:14 [notice] 23#23: exit
+2023/03/22 20:40:14 [notice] 22#22: gracefully shutting down
+2023/03/22 20:40:14 [notice] 22#22: exiting
+2023/03/22 20:40:14 [notice] 22#22: exit
+2023/03/22 20:40:14 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/22 20:40:14 [notice] 1#1: worker process 28 exited with code 0
+2023/03/22 20:40:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/22 20:40:14 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/22 20:40:14 [notice] 1#1: worker process 27 exited with code 0
+2023/03/22 20:40:14 [notice] 1#1: worker process 29 exited with code 0
+2023/03/22 20:40:14 [notice] 1#1: worker process 30 exited with code 0
+2023/03/22 20:40:14 [notice] 1#1: worker process 31 exited with code 0
+2023/03/22 20:40:14 [notice] 1#1: worker process 32 exited with code 0
+2023/03/22 20:40:14 [notice] 1#1: worker process 33 exited with code 0
+2023/03/22 20:40:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/22 20:40:14 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/22 20:40:14 [notice] 1#1: worker process 24 exited with code 0
+2023/03/22 20:40:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/22 20:40:14 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/22 20:40:14 [notice] 1#1: worker process 26 exited with code 0
+2023/03/22 20:40:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/22 20:40:14 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/22 20:40:14 [notice] 1#1: worker process 25 exited with code 0
+2023/03/22 20:40:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/22 20:40:14 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/22 20:40:14 [notice] 1#1: worker process 23 exited with code 0
+2023/03/22 20:40:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/22 20:40:14 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/22 20:40:14 [notice] 1#1: worker process 22 exited with code 0
+2023/03/22 20:40:14 [notice] 1#1: exit
+2023/03/23 05:56:07 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/23 05:56:07 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/23 05:56:07 [notice] 1#1: using the "epoll" event method
+2023/03/23 05:56:07 [notice] 1#1: nginx/1.21.3
+2023/03/23 05:56:07 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/23 05:56:07 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/23 05:56:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/23 05:56:07 [notice] 1#1: start worker processes
+2023/03/23 05:56:07 [notice] 1#1: start worker process 22
+2023/03/23 05:56:07 [notice] 1#1: start worker process 23
+2023/03/23 05:56:07 [notice] 1#1: start worker process 24
+2023/03/23 05:56:07 [notice] 1#1: start worker process 25
+2023/03/23 05:56:07 [notice] 1#1: start worker process 26
+2023/03/23 05:56:07 [notice] 1#1: start worker process 27
+2023/03/23 05:56:07 [notice] 1#1: start worker process 28
+2023/03/23 05:56:07 [notice] 1#1: start worker process 29
+2023/03/23 05:56:07 [notice] 1#1: start worker process 30
+2023/03/23 05:56:07 [notice] 1#1: start worker process 31
+2023/03/23 05:56:07 [notice] 1#1: start worker process 32
+2023/03/23 05:56:07 [notice] 1#1: start worker process 33
+2023/03/23 08:11:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/23 08:11:31 [notice] 31#31: gracefully shutting down
+2023/03/23 08:11:31 [notice] 30#30: gracefully shutting down
+2023/03/23 08:11:31 [notice] 33#33: gracefully shutting down
+2023/03/23 08:11:31 [notice] 31#31: exiting
+2023/03/23 08:11:31 [notice] 30#30: exiting
+2023/03/23 08:11:31 [notice] 33#33: exiting
+2023/03/23 08:11:31 [notice] 24#24: gracefully shutting down
+2023/03/23 08:11:31 [notice] 24#24: exiting
+2023/03/23 08:11:31 [notice] 33#33: exit
+2023/03/23 08:11:31 [notice] 31#31: exit
+2023/03/23 08:11:31 [notice] 30#30: exit
+2023/03/23 08:11:31 [notice] 24#24: exit
+2023/03/23 08:11:31 [notice] 26#26: gracefully shutting down
+2023/03/23 08:11:31 [notice] 26#26: exiting
+2023/03/23 08:11:31 [notice] 26#26: exit
+2023/03/23 08:11:31 [notice] 28#28: gracefully shutting down
+2023/03/23 08:11:31 [notice] 28#28: exiting
+2023/03/23 08:11:31 [notice] 28#28: exit
+2023/03/23 08:11:31 [notice] 23#23: gracefully shutting down
+2023/03/23 08:11:31 [notice] 23#23: exiting
+2023/03/23 08:11:31 [notice] 23#23: exit
+2023/03/23 08:11:31 [notice] 25#25: gracefully shutting down
+2023/03/23 08:11:31 [notice] 25#25: exiting
+2023/03/23 08:11:31 [notice] 25#25: exit
+2023/03/23 08:11:31 [notice] 22#22: gracefully shutting down
+2023/03/23 08:11:31 [notice] 22#22: exiting
+2023/03/23 08:11:31 [notice] 22#22: exit
+2023/03/23 08:11:31 [notice] 27#27: gracefully shutting down
+2023/03/23 08:11:31 [notice] 27#27: exiting
+2023/03/23 08:11:31 [notice] 27#27: exit
+2023/03/23 08:11:31 [notice] 29#29: gracefully shutting down
+2023/03/23 08:11:31 [notice] 29#29: exiting
+2023/03/23 08:11:31 [notice] 29#29: exit
+2023/03/23 08:11:31 [notice] 32#32: gracefully shutting down
+2023/03/23 08:11:31 [notice] 32#32: exiting
+2023/03/23 08:11:31 [notice] 32#32: exit
+2023/03/23 08:11:31 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/23 08:11:31 [notice] 1#1: worker process 22 exited with code 0
+2023/03/23 08:11:31 [notice] 1#1: worker process 23 exited with code 0
+2023/03/23 08:11:31 [notice] 1#1: worker process 25 exited with code 0
+2023/03/23 08:11:31 [notice] 1#1: worker process 26 exited with code 0
+2023/03/23 08:11:31 [notice] 1#1: worker process 27 exited with code 0
+2023/03/23 08:11:31 [notice] 1#1: worker process 28 exited with code 0
+2023/03/23 08:11:31 [notice] 1#1: worker process 29 exited with code 0
+2023/03/23 08:11:31 [notice] 1#1: worker process 30 exited with code 0
+2023/03/23 08:11:31 [notice] 1#1: worker process 31 exited with code 0
+2023/03/23 08:11:31 [notice] 1#1: worker process 32 exited with code 0
+2023/03/23 08:11:31 [notice] 1#1: worker process 33 exited with code 0
+2023/03/23 08:11:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/23 08:11:31 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/23 08:11:31 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/23 08:11:31 [notice] 1#1: worker process 24 exited with code 0
+2023/03/23 08:11:31 [notice] 1#1: exit
+2023/03/23 11:27:53 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/23 11:27:53 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/23 11:27:53 [notice] 1#1: using the "epoll" event method
+2023/03/23 11:27:53 [notice] 1#1: nginx/1.21.3
+2023/03/23 11:27:53 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/23 11:27:53 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/23 11:27:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/23 11:27:53 [notice] 1#1: start worker processes
+2023/03/23 11:27:53 [notice] 1#1: start worker process 23
+2023/03/23 11:27:53 [notice] 1#1: start worker process 24
+2023/03/23 11:27:53 [notice] 1#1: start worker process 25
+2023/03/23 11:27:53 [notice] 1#1: start worker process 26
+2023/03/23 11:27:53 [notice] 1#1: start worker process 27
+2023/03/23 11:27:53 [notice] 1#1: start worker process 28
+2023/03/23 11:27:53 [notice] 1#1: start worker process 29
+2023/03/23 11:27:53 [notice] 1#1: start worker process 30
+2023/03/23 11:27:53 [notice] 1#1: start worker process 31
+2023/03/23 11:27:53 [notice] 1#1: start worker process 32
+2023/03/23 11:27:53 [notice] 1#1: start worker process 33
+2023/03/23 11:27:53 [notice] 1#1: start worker process 34
+2023/03/23 20:25:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/23 20:25:09 [notice] 23#23: gracefully shutting down
+2023/03/23 20:25:09 [notice] 28#28: gracefully shutting down
+2023/03/23 20:25:09 [notice] 23#23: exiting
+2023/03/23 20:25:09 [notice] 28#28: exiting
+2023/03/23 20:25:09 [notice] 29#29: gracefully shutting down
+2023/03/23 20:25:09 [notice] 29#29: exiting
+2023/03/23 20:25:09 [notice] 23#23: exit
+2023/03/23 20:25:09 [notice] 28#28: exit
+2023/03/23 20:25:09 [notice] 29#29: exit
+2023/03/23 20:25:09 [notice] 31#31: gracefully shutting down
+2023/03/23 20:25:09 [notice] 31#31: exiting
+2023/03/23 20:25:09 [notice] 31#31: exit
+2023/03/23 20:25:09 [notice] 34#34: gracefully shutting down
+2023/03/23 20:25:09 [notice] 27#27: gracefully shutting down
+2023/03/23 20:25:09 [notice] 34#34: exiting
+2023/03/23 20:25:09 [notice] 27#27: exiting
+2023/03/23 20:25:09 [notice] 34#34: exit
+2023/03/23 20:25:09 [notice] 27#27: exit
+2023/03/23 20:25:09 [notice] 24#24: gracefully shutting down
+2023/03/23 20:25:09 [notice] 24#24: exiting
+2023/03/23 20:25:09 [notice] 24#24: exit
+2023/03/23 20:25:09 [notice] 25#25: gracefully shutting down
+2023/03/23 20:25:09 [notice] 25#25: exiting
+2023/03/23 20:25:09 [notice] 25#25: exit
+2023/03/23 20:25:09 [notice] 26#26: gracefully shutting down
+2023/03/23 20:25:09 [notice] 26#26: exiting
+2023/03/23 20:25:09 [notice] 26#26: exit
+2023/03/23 20:25:09 [notice] 30#30: gracefully shutting down
+2023/03/23 20:25:09 [notice] 30#30: exiting
+2023/03/23 20:25:09 [notice] 30#30: exit
+2023/03/23 20:25:09 [notice] 32#32: gracefully shutting down
+2023/03/23 20:25:09 [notice] 32#32: exiting
+2023/03/23 20:25:09 [notice] 32#32: exit
+2023/03/23 20:25:09 [notice] 33#33: gracefully shutting down
+2023/03/23 20:25:09 [notice] 33#33: exiting
+2023/03/23 20:25:09 [notice] 33#33: exit
+2023/03/23 20:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/23 20:25:09 [notice] 1#1: worker process 28 exited with code 0
+2023/03/23 20:25:09 [notice] 1#1: worker process 31 exited with code 0
+2023/03/23 20:25:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/23 20:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/23 20:25:09 [notice] 1#1: worker process 25 exited with code 0
+2023/03/23 20:25:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/23 20:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/23 20:25:09 [notice] 1#1: worker process 32 exited with code 0
+2023/03/23 20:25:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/23 20:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/23 20:25:09 [notice] 1#1: worker process 26 exited with code 0
+2023/03/23 20:25:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/23 20:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/23 20:25:09 [notice] 1#1: worker process 33 exited with code 0
+2023/03/23 20:25:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/23 20:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/23 20:25:09 [notice] 1#1: worker process 24 exited with code 0
+2023/03/23 20:25:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/23 20:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/23 20:25:09 [notice] 1#1: worker process 30 exited with code 0
+2023/03/23 20:25:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/23 20:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/23 20:25:09 [notice] 1#1: worker process 27 exited with code 0
+2023/03/23 20:25:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/23 20:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/23 20:25:09 [notice] 1#1: worker process 29 exited with code 0
+2023/03/23 20:25:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/23 20:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/23 20:25:09 [notice] 1#1: worker process 34 exited with code 0
+2023/03/23 20:25:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/23 20:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/23 20:25:09 [notice] 1#1: worker process 23 exited with code 0
+2023/03/23 20:25:09 [notice] 1#1: exit
+2023/03/24 05:55:30 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/24 05:55:30 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/24 05:55:30 [notice] 1#1: using the "epoll" event method
+2023/03/24 05:55:30 [notice] 1#1: nginx/1.21.3
+2023/03/24 05:55:30 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/24 05:55:30 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/24 05:55:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/24 05:55:30 [notice] 1#1: start worker processes
+2023/03/24 05:55:30 [notice] 1#1: start worker process 22
+2023/03/24 05:55:30 [notice] 1#1: start worker process 23
+2023/03/24 05:55:30 [notice] 1#1: start worker process 24
+2023/03/24 05:55:30 [notice] 1#1: start worker process 25
+2023/03/24 05:55:30 [notice] 1#1: start worker process 26
+2023/03/24 05:55:30 [notice] 1#1: start worker process 27
+2023/03/24 05:55:30 [notice] 1#1: start worker process 28
+2023/03/24 05:55:30 [notice] 1#1: start worker process 29
+2023/03/24 05:55:30 [notice] 1#1: start worker process 30
+2023/03/24 05:55:30 [notice] 1#1: start worker process 31
+2023/03/24 05:55:30 [notice] 1#1: start worker process 32
+2023/03/24 05:55:30 [notice] 1#1: start worker process 33
+2023/03/24 14:23:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/24 14:23:55 [notice] 22#22: gracefully shutting down
+2023/03/24 14:23:55 [notice] 27#27: gracefully shutting down
+2023/03/24 14:23:55 [notice] 22#22: exiting
+2023/03/24 14:23:55 [notice] 30#30: gracefully shutting down
+2023/03/24 14:23:55 [notice] 27#27: exiting
+2023/03/24 14:23:55 [notice] 23#23: gracefully shutting down
+2023/03/24 14:23:55 [notice] 30#30: exiting
+2023/03/24 14:23:55 [notice] 23#23: exiting
+2023/03/24 14:23:55 [notice] 22#22: exit
+2023/03/24 14:23:55 [notice] 27#27: exit
+2023/03/24 14:23:55 [notice] 30#30: exit
+2023/03/24 14:23:55 [notice] 23#23: exit
+2023/03/24 14:23:55 [notice] 31#31: gracefully shutting down
+2023/03/24 14:23:55 [notice] 31#31: exiting
+2023/03/24 14:23:55 [notice] 26#26: gracefully shutting down
+2023/03/24 14:23:55 [notice] 29#29: gracefully shutting down
+2023/03/24 14:23:55 [notice] 24#24: gracefully shutting down
+2023/03/24 14:23:55 [notice] 29#29: exiting
+2023/03/24 14:23:55 [notice] 24#24: exiting
+2023/03/24 14:23:55 [notice] 31#31: exit
+2023/03/24 14:23:55 [notice] 24#24: exit
+2023/03/24 14:23:55 [notice] 29#29: exit
+2023/03/24 14:23:55 [notice] 33#33: gracefully shutting down
+2023/03/24 14:23:55 [notice] 28#28: gracefully shutting down
+2023/03/24 14:23:55 [notice] 33#33: exiting
+2023/03/24 14:23:55 [notice] 28#28: exiting
+2023/03/24 14:23:55 [notice] 25#25: gracefully shutting down
+2023/03/24 14:23:55 [notice] 26#26: exiting
+2023/03/24 14:23:55 [notice] 25#25: exiting
+2023/03/24 14:23:55 [notice] 33#33: exit
+2023/03/24 14:23:55 [notice] 28#28: exit
+2023/03/24 14:23:55 [notice] 25#25: exit
+2023/03/24 14:23:55 [notice] 26#26: exit
+2023/03/24 14:23:55 [notice] 32#32: gracefully shutting down
+2023/03/24 14:23:55 [notice] 32#32: exiting
+2023/03/24 14:23:55 [notice] 32#32: exit
+2023/03/24 14:23:55 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/24 14:23:55 [notice] 1#1: worker process 32 exited with code 0
+2023/03/24 14:23:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/24 14:23:55 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/24 14:23:55 [notice] 1#1: worker process 24 exited with code 0
+2023/03/24 14:23:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/24 14:23:55 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/24 14:23:55 [notice] 1#1: worker process 25 exited with code 0
+2023/03/24 14:23:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/24 14:23:55 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/24 14:23:55 [notice] 1#1: worker process 23 exited with code 0
+2023/03/24 14:23:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/24 14:23:55 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/24 14:23:55 [notice] 1#1: worker process 29 exited with code 0
+2023/03/24 14:23:55 [notice] 1#1: worker process 28 exited with code 0
+2023/03/24 14:23:55 [notice] 1#1: worker process 30 exited with code 0
+2023/03/24 14:23:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/24 14:23:55 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/24 14:23:55 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/24 14:23:55 [notice] 1#1: worker process 22 exited with code 0
+2023/03/24 14:23:55 [notice] 1#1: worker process 26 exited with code 0
+2023/03/24 14:23:55 [notice] 1#1: worker process 27 exited with code 0
+2023/03/24 14:23:55 [notice] 1#1: worker process 31 exited with code 0
+2023/03/24 14:23:55 [notice] 1#1: worker process 33 exited with code 0
+2023/03/24 14:23:55 [notice] 1#1: exit
+2023/03/27 06:03:21 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/27 06:03:21 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/27 06:03:21 [notice] 1#1: using the "epoll" event method
+2023/03/27 06:03:21 [notice] 1#1: nginx/1.21.3
+2023/03/27 06:03:21 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/27 06:03:21 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/27 06:03:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/27 06:03:21 [notice] 1#1: start worker processes
+2023/03/27 06:03:21 [notice] 1#1: start worker process 22
+2023/03/27 06:03:21 [notice] 1#1: start worker process 23
+2023/03/27 06:03:21 [notice] 1#1: start worker process 24
+2023/03/27 06:03:21 [notice] 1#1: start worker process 25
+2023/03/27 06:03:21 [notice] 1#1: start worker process 26
+2023/03/27 06:03:21 [notice] 1#1: start worker process 27
+2023/03/27 06:03:21 [notice] 1#1: start worker process 28
+2023/03/27 06:03:21 [notice] 1#1: start worker process 29
+2023/03/27 06:03:21 [notice] 1#1: start worker process 30
+2023/03/27 06:03:21 [notice] 1#1: start worker process 31
+2023/03/27 06:03:21 [notice] 1#1: start worker process 32
+2023/03/27 06:03:21 [notice] 1#1: start worker process 33
+2023/03/27 11:38:34 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/27 11:38:34 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/27 11:38:34 [notice] 1#1: using the "epoll" event method
+2023/03/27 11:38:34 [notice] 1#1: nginx/1.21.3
+2023/03/27 11:38:34 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/27 11:38:34 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/27 11:38:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/27 11:38:34 [notice] 1#1: start worker processes
+2023/03/27 11:38:34 [notice] 1#1: start worker process 23
+2023/03/27 11:38:34 [notice] 1#1: start worker process 24
+2023/03/27 11:38:34 [notice] 1#1: start worker process 25
+2023/03/27 11:38:34 [notice] 1#1: start worker process 26
+2023/03/27 11:38:34 [notice] 1#1: start worker process 27
+2023/03/27 11:38:34 [notice] 1#1: start worker process 28
+2023/03/27 11:38:34 [notice] 1#1: start worker process 29
+2023/03/27 11:38:34 [notice] 1#1: start worker process 30
+2023/03/27 11:38:34 [notice] 1#1: start worker process 31
+2023/03/27 11:38:34 [notice] 1#1: start worker process 32
+2023/03/27 11:38:34 [notice] 1#1: start worker process 33
+2023/03/27 11:38:34 [notice] 1#1: start worker process 34
+2023/03/27 14:35:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/27 14:35:06 [notice] 23#23: gracefully shutting down
+2023/03/27 14:35:06 [notice] 23#23: exiting
+2023/03/27 14:35:06 [notice] 23#23: exit
+2023/03/27 14:35:06 [notice] 28#28: gracefully shutting down
+2023/03/27 14:35:06 [notice] 28#28: exiting
+2023/03/27 14:35:06 [notice] 28#28: exit
+2023/03/27 14:35:06 [notice] 32#32: gracefully shutting down
+2023/03/27 14:35:06 [notice] 31#31: gracefully shutting down
+2023/03/27 14:35:06 [notice] 30#30: gracefully shutting down
+2023/03/27 14:35:06 [notice] 29#29: gracefully shutting down
+2023/03/27 14:35:06 [notice] 32#32: exiting
+2023/03/27 14:35:06 [notice] 31#31: exiting
+2023/03/27 14:35:06 [notice] 30#30: exiting
+2023/03/27 14:35:06 [notice] 29#29: exiting
+2023/03/27 14:35:06 [notice] 31#31: exit
+2023/03/27 14:35:06 [notice] 32#32: exit
+2023/03/27 14:35:06 [notice] 30#30: exit
+2023/03/27 14:35:06 [notice] 29#29: exit
+2023/03/27 14:35:06 [notice] 27#27: gracefully shutting down
+2023/03/27 14:35:06 [notice] 27#27: exiting
+2023/03/27 14:35:06 [notice] 24#24: gracefully shutting down
+2023/03/27 14:35:06 [notice] 27#27: exit
+2023/03/27 14:35:06 [notice] 24#24: exiting
+2023/03/27 14:35:06 [notice] 33#33: gracefully shutting down
+2023/03/27 14:35:06 [notice] 34#34: gracefully shutting down
+2023/03/27 14:35:06 [notice] 33#33: exiting
+2023/03/27 14:35:06 [notice] 34#34: exiting
+2023/03/27 14:35:06 [notice] 24#24: exit
+2023/03/27 14:35:06 [notice] 33#33: exit
+2023/03/27 14:35:06 [notice] 34#34: exit
+2023/03/27 14:35:06 [notice] 25#25: gracefully shutting down
+2023/03/27 14:35:06 [notice] 25#25: exiting
+2023/03/27 14:35:06 [notice] 25#25: exit
+2023/03/27 14:35:06 [notice] 26#26: gracefully shutting down
+2023/03/27 14:35:06 [notice] 26#26: exiting
+2023/03/27 14:35:06 [notice] 26#26: exit
+2023/03/27 14:35:06 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/27 14:35:06 [notice] 1#1: worker process 23 exited with code 0
+2023/03/27 14:35:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/27 14:35:06 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/27 14:35:06 [notice] 1#1: worker process 28 exited with code 0
+2023/03/27 14:35:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/27 14:35:06 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/27 14:35:06 [notice] 1#1: worker process 25 exited with code 0
+2023/03/27 14:35:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/27 14:35:06 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/27 14:35:06 [notice] 1#1: worker process 29 exited with code 0
+2023/03/27 14:35:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/27 14:35:06 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/27 14:35:06 [notice] 1#1: worker process 24 exited with code 0
+2023/03/27 14:35:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/27 14:35:06 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/27 14:35:06 [notice] 1#1: worker process 27 exited with code 0
+2023/03/27 14:35:06 [notice] 1#1: worker process 30 exited with code 0
+2023/03/27 14:35:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/27 14:35:06 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/27 14:35:06 [notice] 1#1: worker process 26 exited with code 0
+2023/03/27 14:35:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/27 14:35:06 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/27 14:35:06 [notice] 1#1: worker process 32 exited with code 0
+2023/03/27 14:35:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/27 14:35:06 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/27 14:35:06 [notice] 1#1: worker process 33 exited with code 0
+2023/03/27 14:35:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/27 14:35:06 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/27 14:35:06 [notice] 1#1: worker process 34 exited with code 0
+2023/03/27 14:35:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/27 14:35:06 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/27 14:35:06 [notice] 1#1: worker process 31 exited with code 0
+2023/03/27 14:35:06 [notice] 1#1: exit
+2023/03/28 05:57:36 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/28 05:57:36 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/28 05:57:36 [notice] 1#1: using the "epoll" event method
+2023/03/28 05:57:36 [notice] 1#1: nginx/1.21.3
+2023/03/28 05:57:36 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/28 05:57:36 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/28 05:57:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/28 05:57:36 [notice] 1#1: start worker processes
+2023/03/28 05:57:36 [notice] 1#1: start worker process 22
+2023/03/28 05:57:36 [notice] 1#1: start worker process 23
+2023/03/28 05:57:36 [notice] 1#1: start worker process 24
+2023/03/28 05:57:36 [notice] 1#1: start worker process 25
+2023/03/28 05:57:36 [notice] 1#1: start worker process 26
+2023/03/28 05:57:36 [notice] 1#1: start worker process 27
+2023/03/28 05:57:36 [notice] 1#1: start worker process 28
+2023/03/28 05:57:36 [notice] 1#1: start worker process 29
+2023/03/28 05:57:36 [notice] 1#1: start worker process 30
+2023/03/28 05:57:36 [notice] 1#1: start worker process 31
+2023/03/28 05:57:36 [notice] 1#1: start worker process 32
+2023/03/28 05:57:36 [notice] 1#1: start worker process 33
+2023/03/28 13:12:18 [error] 23#23: *6 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.250.4:9000", host: "localhost:8897"
+2023/03/28 13:12:18 [error] 23#23: *6 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.250.4:9000", host: "localhost:8897"
+2023/03/28 14:06:15 [error] 22#22: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.250.4:9000", host: "localhost:8897"
+2023/03/28 14:06:15 [error] 22#22: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.250.4:9000", host: "localhost:8897"
+2023/03/28 14:17:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/28 14:17:47 [notice] 23#23: gracefully shutting down
+2023/03/28 14:17:47 [notice] 24#24: gracefully shutting down
+2023/03/28 14:17:47 [notice] 26#26: gracefully shutting down
+2023/03/28 14:17:47 [notice] 27#27: gracefully shutting down
+2023/03/28 14:17:47 [notice] 23#23: exiting
+2023/03/28 14:17:47 [notice] 22#22: gracefully shutting down
+2023/03/28 14:17:47 [notice] 25#25: gracefully shutting down
+2023/03/28 14:17:47 [notice] 24#24: exiting
+2023/03/28 14:17:47 [notice] 26#26: exiting
+2023/03/28 14:17:47 [notice] 27#27: exiting
+2023/03/28 14:17:47 [notice] 22#22: exiting
+2023/03/28 14:17:47 [notice] 25#25: exiting
+2023/03/28 14:17:47 [notice] 26#26: exit
+2023/03/28 14:17:47 [notice] 24#24: exit
+2023/03/28 14:17:47 [notice] 23#23: exit
+2023/03/28 14:17:47 [notice] 27#27: exit
+2023/03/28 14:17:47 [notice] 25#25: exit
+2023/03/28 14:17:47 [notice] 22#22: exit
+2023/03/28 14:17:47 [notice] 28#28: gracefully shutting down
+2023/03/28 14:17:47 [notice] 29#29: gracefully shutting down
+2023/03/28 14:17:47 [notice] 32#32: gracefully shutting down
+2023/03/28 14:17:47 [notice] 30#30: gracefully shutting down
+2023/03/28 14:17:47 [notice] 31#31: gracefully shutting down
+2023/03/28 14:17:47 [notice] 28#28: exiting
+2023/03/28 14:17:47 [notice] 33#33: gracefully shutting down
+2023/03/28 14:17:47 [notice] 29#29: exiting
+2023/03/28 14:17:47 [notice] 32#32: exiting
+2023/03/28 14:17:47 [notice] 30#30: exiting
+2023/03/28 14:17:47 [notice] 31#31: exiting
+2023/03/28 14:17:47 [notice] 33#33: exiting
+2023/03/28 14:17:47 [notice] 28#28: exit
+2023/03/28 14:17:47 [notice] 32#32: exit
+2023/03/28 14:17:47 [notice] 29#29: exit
+2023/03/28 14:17:47 [notice] 33#33: exit
+2023/03/28 14:17:47 [notice] 30#30: exit
+2023/03/28 14:17:47 [notice] 31#31: exit
+2023/03/28 14:17:47 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/28 14:17:47 [notice] 1#1: worker process 23 exited with code 0
+2023/03/28 14:17:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:17:47 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/28 14:17:47 [notice] 1#1: worker process 33 exited with code 0
+2023/03/28 14:17:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:17:47 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/28 14:17:47 [notice] 1#1: worker process 22 exited with code 0
+2023/03/28 14:17:47 [notice] 1#1: worker process 27 exited with code 0
+2023/03/28 14:17:47 [notice] 1#1: worker process 25 exited with code 0
+2023/03/28 14:17:47 [notice] 1#1: worker process 28 exited with code 0
+2023/03/28 14:17:47 [notice] 1#1: worker process 30 exited with code 0
+2023/03/28 14:17:47 [notice] 1#1: worker process 31 exited with code 0
+2023/03/28 14:17:47 [notice] 1#1: worker process 32 exited with code 0
+2023/03/28 14:17:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:17:47 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/28 14:17:47 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/28 14:17:47 [notice] 1#1: worker process 29 exited with code 0
+2023/03/28 14:17:47 [notice] 1#1: worker process 24 exited with code 0
+2023/03/28 14:17:47 [notice] 1#1: worker process 26 exited with code 0
+2023/03/28 14:17:47 [notice] 1#1: exit
+2023/03/28 14:18:16 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/28 14:18:16 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/28 14:18:16 [notice] 1#1: using the "epoll" event method
+2023/03/28 14:18:16 [notice] 1#1: nginx/1.21.3
+2023/03/28 14:18:16 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/28 14:18:16 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/28 14:18:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/28 14:18:16 [notice] 1#1: start worker processes
+2023/03/28 14:18:16 [notice] 1#1: start worker process 24
+2023/03/28 14:18:16 [notice] 1#1: start worker process 25
+2023/03/28 14:18:16 [notice] 1#1: start worker process 26
+2023/03/28 14:18:16 [notice] 1#1: start worker process 27
+2023/03/28 14:18:16 [notice] 1#1: start worker process 28
+2023/03/28 14:18:16 [notice] 1#1: start worker process 29
+2023/03/28 14:18:16 [notice] 1#1: start worker process 30
+2023/03/28 14:18:16 [notice] 1#1: start worker process 31
+2023/03/28 14:18:16 [notice] 1#1: start worker process 32
+2023/03/28 14:18:16 [notice] 1#1: start worker process 33
+2023/03/28 14:18:16 [notice] 1#1: start worker process 34
+2023/03/28 14:18:16 [notice] 1#1: start worker process 35
+2023/03/28 14:29:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/28 14:29:22 [notice] 25#25: gracefully shutting down
+2023/03/28 14:29:22 [notice] 24#24: gracefully shutting down
+2023/03/28 14:29:22 [notice] 26#26: gracefully shutting down
+2023/03/28 14:29:22 [notice] 28#28: gracefully shutting down
+2023/03/28 14:29:22 [notice] 27#27: gracefully shutting down
+2023/03/28 14:29:22 [notice] 25#25: exiting
+2023/03/28 14:29:22 [notice] 24#24: exiting
+2023/03/28 14:29:22 [notice] 26#26: exiting
+2023/03/28 14:29:22 [notice] 28#28: exiting
+2023/03/28 14:29:22 [notice] 27#27: exiting
+2023/03/28 14:29:22 [notice] 26#26: exit
+2023/03/28 14:29:22 [notice] 25#25: exit
+2023/03/28 14:29:22 [notice] 28#28: exit
+2023/03/28 14:29:22 [notice] 24#24: exit
+2023/03/28 14:29:22 [notice] 27#27: exit
+2023/03/28 14:29:22 [notice] 29#29: gracefully shutting down
+2023/03/28 14:29:22 [notice] 30#30: gracefully shutting down
+2023/03/28 14:29:22 [notice] 31#31: gracefully shutting down
+2023/03/28 14:29:22 [notice] 29#29: exiting
+2023/03/28 14:29:22 [notice] 30#30: exiting
+2023/03/28 14:29:22 [notice] 31#31: exiting
+2023/03/28 14:29:22 [notice] 31#31: exit
+2023/03/28 14:29:22 [notice] 30#30: exit
+2023/03/28 14:29:22 [notice] 29#29: exit
+2023/03/28 14:29:22 [notice] 32#32: gracefully shutting down
+2023/03/28 14:29:22 [notice] 33#33: gracefully shutting down
+2023/03/28 14:29:22 [notice] 35#35: gracefully shutting down
+2023/03/28 14:29:22 [notice] 32#32: exiting
+2023/03/28 14:29:22 [notice] 33#33: exiting
+2023/03/28 14:29:22 [notice] 35#35: exiting
+2023/03/28 14:29:22 [notice] 35#35: exit
+2023/03/28 14:29:22 [notice] 33#33: exit
+2023/03/28 14:29:22 [notice] 32#32: exit
+2023/03/28 14:29:22 [notice] 34#34: gracefully shutting down
+2023/03/28 14:29:22 [notice] 34#34: exiting
+2023/03/28 14:29:22 [notice] 34#34: exit
+2023/03/28 14:29:22 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/28 14:29:22 [notice] 1#1: worker process 32 exited with code 0
+2023/03/28 14:29:22 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:29:22 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/28 14:29:22 [notice] 1#1: worker process 24 exited with code 0
+2023/03/28 14:29:22 [notice] 1#1: worker process 25 exited with code 0
+2023/03/28 14:29:22 [notice] 1#1: worker process 26 exited with code 0
+2023/03/28 14:29:22 [notice] 1#1: worker process 30 exited with code 0
+2023/03/28 14:29:22 [notice] 1#1: worker process 31 exited with code 0
+2023/03/28 14:29:22 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:29:22 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/03/28 14:29:22 [notice] 1#1: worker process 28 exited with code 0
+2023/03/28 14:29:22 [notice] 1#1: worker process 35 exited with code 0
+2023/03/28 14:29:22 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:29:22 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/28 14:29:22 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/28 14:29:22 [notice] 1#1: worker process 27 exited with code 0
+2023/03/28 14:29:22 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:29:22 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/28 14:29:22 [notice] 1#1: worker process 29 exited with code 0
+2023/03/28 14:29:22 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:29:22 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/28 14:29:22 [notice] 1#1: worker process 34 exited with code 0
+2023/03/28 14:29:22 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/28 14:29:22 [notice] 1#1: worker process 33 exited with code 0
+2023/03/28 14:29:22 [notice] 1#1: exit
+2023/03/28 14:33:38 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/28 14:33:38 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/28 14:33:38 [notice] 1#1: using the "epoll" event method
+2023/03/28 14:33:38 [notice] 1#1: nginx/1.21.3
+2023/03/28 14:33:38 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/28 14:33:38 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/28 14:33:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/28 14:33:38 [notice] 1#1: start worker processes
+2023/03/28 14:33:38 [notice] 1#1: start worker process 22
+2023/03/28 14:33:38 [notice] 1#1: start worker process 23
+2023/03/28 14:33:38 [notice] 1#1: start worker process 24
+2023/03/28 14:33:38 [notice] 1#1: start worker process 25
+2023/03/28 14:33:38 [notice] 1#1: start worker process 26
+2023/03/28 14:33:38 [notice] 1#1: start worker process 27
+2023/03/28 14:33:38 [notice] 1#1: start worker process 28
+2023/03/28 14:33:38 [notice] 1#1: start worker process 29
+2023/03/28 14:33:38 [notice] 1#1: start worker process 30
+2023/03/28 14:33:38 [notice] 1#1: start worker process 31
+2023/03/28 14:33:38 [notice] 1#1: start worker process 32
+2023/03/28 14:33:38 [notice] 1#1: start worker process 33
+2023/03/28 14:36:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/28 14:36:06 [notice] 23#23: gracefully shutting down
+2023/03/28 14:36:06 [notice] 22#22: gracefully shutting down
+2023/03/28 14:36:06 [notice] 27#27: gracefully shutting down
+2023/03/28 14:36:06 [notice] 25#25: gracefully shutting down
+2023/03/28 14:36:06 [notice] 26#26: gracefully shutting down
+2023/03/28 14:36:06 [notice] 24#24: gracefully shutting down
+2023/03/28 14:36:06 [notice] 29#29: gracefully shutting down
+2023/03/28 14:36:06 [notice] 30#30: gracefully shutting down
+2023/03/28 14:36:06 [notice] 23#23: exiting
+2023/03/28 14:36:06 [notice] 22#22: exiting
+2023/03/28 14:36:06 [notice] 32#32: gracefully shutting down
+2023/03/28 14:36:06 [notice] 27#27: exiting
+2023/03/28 14:36:06 [notice] 25#25: exiting
+2023/03/28 14:36:06 [notice] 26#26: exiting
+2023/03/28 14:36:06 [notice] 24#24: exiting
+2023/03/28 14:36:06 [notice] 29#29: exiting
+2023/03/28 14:36:06 [notice] 30#30: exiting
+2023/03/28 14:36:06 [notice] 32#32: exiting
+2023/03/28 14:36:06 [notice] 23#23: exit
+2023/03/28 14:36:06 [notice] 27#27: exit
+2023/03/28 14:36:06 [notice] 22#22: exit
+2023/03/28 14:36:06 [notice] 26#26: exit
+2023/03/28 14:36:06 [notice] 32#32: exit
+2023/03/28 14:36:06 [notice] 30#30: exit
+2023/03/28 14:36:06 [notice] 29#29: exit
+2023/03/28 14:36:06 [notice] 25#25: exit
+2023/03/28 14:36:06 [notice] 24#24: exit
+2023/03/28 14:36:06 [notice] 28#28: gracefully shutting down
+2023/03/28 14:36:06 [notice] 33#33: gracefully shutting down
+2023/03/28 14:36:06 [notice] 28#28: exiting
+2023/03/28 14:36:06 [notice] 33#33: exiting
+2023/03/28 14:36:06 [notice] 31#31: gracefully shutting down
+2023/03/28 14:36:06 [notice] 31#31: exiting
+2023/03/28 14:36:06 [notice] 28#28: exit
+2023/03/28 14:36:06 [notice] 33#33: exit
+2023/03/28 14:36:06 [notice] 31#31: exit
+2023/03/28 14:36:06 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/28 14:36:06 [notice] 1#1: worker process 23 exited with code 0
+2023/03/28 14:36:06 [notice] 1#1: worker process 26 exited with code 0
+2023/03/28 14:36:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:36:06 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/28 14:36:06 [notice] 1#1: worker process 29 exited with code 0
+2023/03/28 14:36:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:36:06 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/28 14:36:06 [notice] 1#1: worker process 31 exited with code 0
+2023/03/28 14:36:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:36:06 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/28 14:36:06 [notice] 1#1: worker process 30 exited with code 0
+2023/03/28 14:36:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:36:06 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/28 14:36:06 [notice] 1#1: worker process 32 exited with code 0
+2023/03/28 14:36:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:36:06 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/28 14:36:06 [notice] 1#1: worker process 25 exited with code 0
+2023/03/28 14:36:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:36:06 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/28 14:36:06 [notice] 1#1: worker process 24 exited with code 0
+2023/03/28 14:36:06 [notice] 1#1: worker process 22 exited with code 0
+2023/03/28 14:36:06 [notice] 1#1: worker process 28 exited with code 0
+2023/03/28 14:36:06 [notice] 1#1: worker process 33 exited with code 0
+2023/03/28 14:36:06 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/28 14:36:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:36:06 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/28 14:36:06 [notice] 1#1: worker process 27 exited with code 0
+2023/03/28 14:36:06 [notice] 1#1: exit
+2023/03/28 14:36:26 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/28 14:36:26 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/28 14:36:26 [notice] 1#1: using the "epoll" event method
+2023/03/28 14:36:26 [notice] 1#1: nginx/1.21.3
+2023/03/28 14:36:26 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/28 14:36:26 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/28 14:36:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/28 14:36:26 [notice] 1#1: start worker processes
+2023/03/28 14:36:26 [notice] 1#1: start worker process 22
+2023/03/28 14:36:26 [notice] 1#1: start worker process 23
+2023/03/28 14:36:26 [notice] 1#1: start worker process 24
+2023/03/28 14:36:26 [notice] 1#1: start worker process 25
+2023/03/28 14:36:26 [notice] 1#1: start worker process 26
+2023/03/28 14:36:26 [notice] 1#1: start worker process 27
+2023/03/28 14:36:26 [notice] 1#1: start worker process 28
+2023/03/28 14:36:26 [notice] 1#1: start worker process 29
+2023/03/28 14:36:26 [notice] 1#1: start worker process 30
+2023/03/28 14:36:26 [notice] 1#1: start worker process 31
+2023/03/28 14:36:26 [notice] 1#1: start worker process 32
+2023/03/28 14:36:26 [notice] 1#1: start worker process 33
+2023/03/28 14:36:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/28 14:36:50 [notice] 22#22: gracefully shutting down
+2023/03/28 14:36:50 [notice] 25#25: gracefully shutting down
+2023/03/28 14:36:50 [notice] 24#24: gracefully shutting down
+2023/03/28 14:36:50 [notice] 29#29: gracefully shutting down
+2023/03/28 14:36:50 [notice] 22#22: exiting
+2023/03/28 14:36:50 [notice] 25#25: exiting
+2023/03/28 14:36:50 [notice] 26#26: gracefully shutting down
+2023/03/28 14:36:50 [notice] 24#24: exiting
+2023/03/28 14:36:50 [notice] 29#29: exiting
+2023/03/28 14:36:50 [notice] 26#26: exiting
+2023/03/28 14:36:50 [notice] 25#25: exit
+2023/03/28 14:36:50 [notice] 22#22: exit
+2023/03/28 14:36:50 [notice] 24#24: exit
+2023/03/28 14:36:50 [notice] 26#26: exit
+2023/03/28 14:36:50 [notice] 29#29: exit
+2023/03/28 14:36:50 [notice] 30#30: gracefully shutting down
+2023/03/28 14:36:50 [notice] 27#27: gracefully shutting down
+2023/03/28 14:36:50 [notice] 30#30: exiting
+2023/03/28 14:36:50 [notice] 33#33: gracefully shutting down
+2023/03/28 14:36:50 [notice] 27#27: exiting
+2023/03/28 14:36:50 [notice] 33#33: exiting
+2023/03/28 14:36:50 [notice] 28#28: gracefully shutting down
+2023/03/28 14:36:50 [notice] 27#27: exit
+2023/03/28 14:36:50 [notice] 30#30: exit
+2023/03/28 14:36:50 [notice] 28#28: exiting
+2023/03/28 14:36:50 [notice] 33#33: exit
+2023/03/28 14:36:50 [notice] 28#28: exit
+2023/03/28 14:36:50 [notice] 32#32: gracefully shutting down
+2023/03/28 14:36:50 [notice] 32#32: exiting
+2023/03/28 14:36:50 [notice] 31#31: gracefully shutting down
+2023/03/28 14:36:50 [notice] 31#31: exiting
+2023/03/28 14:36:50 [notice] 32#32: exit
+2023/03/28 14:36:50 [notice] 31#31: exit
+2023/03/28 14:36:50 [notice] 23#23: gracefully shutting down
+2023/03/28 14:36:50 [notice] 23#23: exiting
+2023/03/28 14:36:50 [notice] 23#23: exit
+2023/03/28 14:36:50 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/28 14:36:50 [notice] 1#1: worker process 31 exited with code 0
+2023/03/28 14:36:50 [notice] 1#1: worker process 23 exited with code 0
+2023/03/28 14:36:50 [notice] 1#1: worker process 33 exited with code 0
+2023/03/28 14:36:50 [notice] 1#1: worker process 24 exited with code 0
+2023/03/28 14:36:50 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:36:50 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/28 14:36:50 [notice] 1#1: worker process 25 exited with code 0
+2023/03/28 14:36:50 [notice] 1#1: worker process 26 exited with code 0
+2023/03/28 14:36:50 [notice] 1#1: worker process 27 exited with code 0
+2023/03/28 14:36:50 [notice] 1#1: worker process 30 exited with code 0
+2023/03/28 14:36:50 [notice] 1#1: worker process 32 exited with code 0
+2023/03/28 14:36:50 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:36:50 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/28 14:36:50 [notice] 1#1: worker process 22 exited with code 0
+2023/03/28 14:36:50 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:36:50 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/28 14:36:50 [notice] 1#1: worker process 28 exited with code 0
+2023/03/28 14:36:50 [notice] 1#1: worker process 29 exited with code 0
+2023/03/28 14:36:50 [notice] 1#1: exit
+2023/03/28 14:37:31 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/28 14:37:31 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/28 14:37:31 [notice] 1#1: using the "epoll" event method
+2023/03/28 14:37:31 [notice] 1#1: nginx/1.21.3
+2023/03/28 14:37:31 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/28 14:37:31 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/28 14:37:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/28 14:37:31 [notice] 1#1: start worker processes
+2023/03/28 14:37:31 [notice] 1#1: start worker process 22
+2023/03/28 14:37:31 [notice] 1#1: start worker process 23
+2023/03/28 14:37:31 [notice] 1#1: start worker process 24
+2023/03/28 14:37:31 [notice] 1#1: start worker process 25
+2023/03/28 14:37:31 [notice] 1#1: start worker process 26
+2023/03/28 14:37:31 [notice] 1#1: start worker process 27
+2023/03/28 14:37:31 [notice] 1#1: start worker process 28
+2023/03/28 14:37:31 [notice] 1#1: start worker process 29
+2023/03/28 14:37:31 [notice] 1#1: start worker process 30
+2023/03/28 14:37:31 [notice] 1#1: start worker process 31
+2023/03/28 14:37:31 [notice] 1#1: start worker process 32
+2023/03/28 14:37:31 [notice] 1#1: start worker process 33
+2023/03/28 14:42:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/28 14:42:06 [notice] 24#24: gracefully shutting down
+2023/03/28 14:42:06 [notice] 28#28: gracefully shutting down
+2023/03/28 14:42:06 [notice] 25#25: gracefully shutting down
+2023/03/28 14:42:06 [notice] 30#30: gracefully shutting down
+2023/03/28 14:42:06 [notice] 27#27: gracefully shutting down
+2023/03/28 14:42:06 [notice] 22#22: gracefully shutting down
+2023/03/28 14:42:06 [notice] 29#29: gracefully shutting down
+2023/03/28 14:42:06 [notice] 33#33: gracefully shutting down
+2023/03/28 14:42:06 [notice] 24#24: exiting
+2023/03/28 14:42:06 [notice] 28#28: exiting
+2023/03/28 14:42:06 [notice] 29#29: exiting
+2023/03/28 14:42:06 [notice] 25#25: exiting
+2023/03/28 14:42:06 [notice] 30#30: exiting
+2023/03/28 14:42:06 [notice] 27#27: exiting
+2023/03/28 14:42:06 [notice] 22#22: exiting
+2023/03/28 14:42:06 [notice] 33#33: exiting
+2023/03/28 14:42:06 [notice] 22#22: exit
+2023/03/28 14:42:06 [notice] 24#24: exit
+2023/03/28 14:42:06 [notice] 33#33: exit
+2023/03/28 14:42:06 [notice] 25#25: exit
+2023/03/28 14:42:06 [notice] 27#27: exit
+2023/03/28 14:42:06 [notice] 28#28: exit
+2023/03/28 14:42:06 [notice] 29#29: exit
+2023/03/28 14:42:06 [notice] 30#30: exit
+2023/03/28 14:42:06 [notice] 31#31: gracefully shutting down
+2023/03/28 14:42:06 [notice] 31#31: exiting
+2023/03/28 14:42:06 [notice] 31#31: exit
+2023/03/28 14:42:06 [notice] 26#26: gracefully shutting down
+2023/03/28 14:42:06 [notice] 26#26: exiting
+2023/03/28 14:42:06 [notice] 26#26: exit
+2023/03/28 14:42:06 [notice] 32#32: gracefully shutting down
+2023/03/28 14:42:06 [notice] 23#23: gracefully shutting down
+2023/03/28 14:42:06 [notice] 32#32: exiting
+2023/03/28 14:42:06 [notice] 23#23: exiting
+2023/03/28 14:42:06 [notice] 32#32: exit
+2023/03/28 14:42:06 [notice] 23#23: exit
+2023/03/28 14:42:06 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/28 14:42:06 [notice] 1#1: worker process 24 exited with code 0
+2023/03/28 14:42:06 [notice] 1#1: worker process 31 exited with code 0
+2023/03/28 14:42:06 [notice] 1#1: worker process 22 exited with code 0
+2023/03/28 14:42:06 [notice] 1#1: worker process 33 exited with code 0
+2023/03/28 14:42:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:42:06 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/28 14:42:06 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/28 14:42:06 [notice] 1#1: worker process 30 exited with code 0
+2023/03/28 14:42:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:42:06 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/28 14:42:06 [notice] 1#1: worker process 28 exited with code 0
+2023/03/28 14:42:06 [notice] 1#1: worker process 32 exited with code 0
+2023/03/28 14:42:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:42:06 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/28 14:42:06 [notice] 1#1: worker process 26 exited with code 0
+2023/03/28 14:42:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:42:06 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/28 14:42:06 [notice] 1#1: worker process 27 exited with code 0
+2023/03/28 14:42:06 [notice] 1#1: worker process 29 exited with code 0
+2023/03/28 14:42:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:42:06 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/28 14:42:06 [notice] 1#1: worker process 23 exited with code 0
+2023/03/28 14:42:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:42:06 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/28 14:42:06 [notice] 1#1: worker process 25 exited with code 0
+2023/03/28 14:42:06 [notice] 1#1: exit
+2023/03/28 14:42:27 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/28 14:42:27 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/28 14:42:27 [notice] 1#1: using the "epoll" event method
+2023/03/28 14:42:27 [notice] 1#1: nginx/1.21.3
+2023/03/28 14:42:27 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/28 14:42:27 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/28 14:42:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/28 14:42:27 [notice] 1#1: start worker processes
+2023/03/28 14:42:27 [notice] 1#1: start worker process 22
+2023/03/28 14:42:27 [notice] 1#1: start worker process 23
+2023/03/28 14:42:27 [notice] 1#1: start worker process 24
+2023/03/28 14:42:27 [notice] 1#1: start worker process 25
+2023/03/28 14:42:27 [notice] 1#1: start worker process 26
+2023/03/28 14:42:27 [notice] 1#1: start worker process 27
+2023/03/28 14:42:27 [notice] 1#1: start worker process 28
+2023/03/28 14:42:27 [notice] 1#1: start worker process 29
+2023/03/28 14:42:27 [notice] 1#1: start worker process 30
+2023/03/28 14:42:27 [notice] 1#1: start worker process 31
+2023/03/28 14:42:27 [notice] 1#1: start worker process 32
+2023/03/28 14:42:27 [notice] 1#1: start worker process 33
+2023/03/28 14:47:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/28 14:47:52 [notice] 22#22: gracefully shutting down
+2023/03/28 14:47:52 [notice] 23#23: gracefully shutting down
+2023/03/28 14:47:52 [notice] 25#25: gracefully shutting down
+2023/03/28 14:47:52 [notice] 24#24: gracefully shutting down
+2023/03/28 14:47:52 [notice] 22#22: exiting
+2023/03/28 14:47:52 [notice] 26#26: gracefully shutting down
+2023/03/28 14:47:52 [notice] 23#23: exiting
+2023/03/28 14:47:52 [notice] 25#25: exiting
+2023/03/28 14:47:52 [notice] 30#30: gracefully shutting down
+2023/03/28 14:47:52 [notice] 24#24: exiting
+2023/03/28 14:47:52 [notice] 32#32: gracefully shutting down
+2023/03/28 14:47:52 [notice] 28#28: gracefully shutting down
+2023/03/28 14:47:52 [notice] 26#26: exiting
+2023/03/28 14:47:52 [notice] 30#30: exiting
+2023/03/28 14:47:52 [notice] 32#32: exiting
+2023/03/28 14:47:52 [notice] 28#28: exiting
+2023/03/28 14:47:52 [notice] 22#22: exit
+2023/03/28 14:47:52 [notice] 25#25: exit
+2023/03/28 14:47:52 [notice] 23#23: exit
+2023/03/28 14:47:52 [notice] 24#24: exit
+2023/03/28 14:47:52 [notice] 32#32: exit
+2023/03/28 14:47:52 [notice] 30#30: exit
+2023/03/28 14:47:52 [notice] 26#26: exit
+2023/03/28 14:47:52 [notice] 28#28: exit
+2023/03/28 14:47:52 [notice] 33#33: gracefully shutting down
+2023/03/28 14:47:52 [notice] 33#33: exiting
+2023/03/28 14:47:52 [notice] 27#27: gracefully shutting down
+2023/03/28 14:47:52 [notice] 27#27: exiting
+2023/03/28 14:47:52 [notice] 33#33: exit
+2023/03/28 14:47:52 [notice] 27#27: exit
+2023/03/28 14:47:52 [notice] 29#29: gracefully shutting down
+2023/03/28 14:47:52 [notice] 29#29: exiting
+2023/03/28 14:47:52 [notice] 29#29: exit
+2023/03/28 14:47:52 [notice] 31#31: gracefully shutting down
+2023/03/28 14:47:52 [notice] 31#31: exiting
+2023/03/28 14:47:52 [notice] 31#31: exit
+2023/03/28 14:47:52 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/28 14:47:52 [notice] 1#1: worker process 28 exited with code 0
+2023/03/28 14:47:52 [notice] 1#1: worker process 26 exited with code 0
+2023/03/28 14:47:52 [notice] 1#1: worker process 31 exited with code 0
+2023/03/28 14:47:52 [notice] 1#1: worker process 33 exited with code 0
+2023/03/28 14:47:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:47:52 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/28 14:47:52 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/28 14:47:52 [notice] 1#1: worker process 32 exited with code 0
+2023/03/28 14:47:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:47:52 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/28 14:47:52 [notice] 1#1: worker process 22 exited with code 0
+2023/03/28 14:47:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:47:52 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/28 14:47:52 [notice] 1#1: worker process 23 exited with code 0
+2023/03/28 14:47:52 [notice] 1#1: worker process 24 exited with code 0
+2023/03/28 14:47:52 [notice] 1#1: worker process 29 exited with code 0
+2023/03/28 14:47:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:47:52 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/28 14:47:52 [notice] 1#1: worker process 27 exited with code 0
+2023/03/28 14:47:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:47:52 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/28 14:47:52 [notice] 1#1: worker process 25 exited with code 0
+2023/03/28 14:47:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:47:52 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/28 14:47:52 [notice] 1#1: worker process 30 exited with code 0
+2023/03/28 14:47:52 [notice] 1#1: exit
+2023/03/28 14:48:15 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/28 14:48:15 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/28 14:48:15 [notice] 1#1: using the "epoll" event method
+2023/03/28 14:48:15 [notice] 1#1: nginx/1.21.3
+2023/03/28 14:48:15 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/28 14:48:15 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/28 14:48:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/28 14:48:15 [notice] 1#1: start worker processes
+2023/03/28 14:48:15 [notice] 1#1: start worker process 23
+2023/03/28 14:48:15 [notice] 1#1: start worker process 24
+2023/03/28 14:48:15 [notice] 1#1: start worker process 25
+2023/03/28 14:48:15 [notice] 1#1: start worker process 26
+2023/03/28 14:48:15 [notice] 1#1: start worker process 27
+2023/03/28 14:48:15 [notice] 1#1: start worker process 28
+2023/03/28 14:48:15 [notice] 1#1: start worker process 29
+2023/03/28 14:48:15 [notice] 1#1: start worker process 30
+2023/03/28 14:48:15 [notice] 1#1: start worker process 31
+2023/03/28 14:48:15 [notice] 1#1: start worker process 32
+2023/03/28 14:48:15 [notice] 1#1: start worker process 33
+2023/03/28 14:48:15 [notice] 1#1: start worker process 34
+2023/03/28 14:51:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/28 14:51:49 [notice] 23#23: gracefully shutting down
+2023/03/28 14:51:49 [notice] 23#23: exiting
+2023/03/28 14:51:49 [notice] 29#29: gracefully shutting down
+2023/03/28 14:51:49 [notice] 32#32: gracefully shutting down
+2023/03/28 14:51:49 [notice] 31#31: gracefully shutting down
+2023/03/28 14:51:49 [notice] 30#30: gracefully shutting down
+2023/03/28 14:51:49 [notice] 33#33: gracefully shutting down
+2023/03/28 14:51:49 [notice] 24#24: gracefully shutting down
+2023/03/28 14:51:49 [notice] 31#31: exiting
+2023/03/28 14:51:49 [notice] 29#29: exiting
+2023/03/28 14:51:49 [notice] 32#32: exiting
+2023/03/28 14:51:49 [notice] 30#30: exiting
+2023/03/28 14:51:49 [notice] 33#33: exiting
+2023/03/28 14:51:49 [notice] 24#24: exiting
+2023/03/28 14:51:49 [notice] 23#23: exit
+2023/03/28 14:51:49 [notice] 30#30: exit
+2023/03/28 14:51:49 [notice] 33#33: exit
+2023/03/28 14:51:49 [notice] 32#32: exit
+2023/03/28 14:51:49 [notice] 29#29: exit
+2023/03/28 14:51:49 [notice] 31#31: exit
+2023/03/28 14:51:49 [notice] 24#24: exit
+2023/03/28 14:51:49 [notice] 27#27: gracefully shutting down
+2023/03/28 14:51:49 [notice] 27#27: exiting
+2023/03/28 14:51:49 [notice] 25#25: gracefully shutting down
+2023/03/28 14:51:49 [notice] 27#27: exit
+2023/03/28 14:51:49 [notice] 25#25: exiting
+2023/03/28 14:51:49 [notice] 25#25: exit
+2023/03/28 14:51:49 [notice] 34#34: gracefully shutting down
+2023/03/28 14:51:49 [notice] 34#34: exiting
+2023/03/28 14:51:49 [notice] 34#34: exit
+2023/03/28 14:51:49 [notice] 28#28: gracefully shutting down
+2023/03/28 14:51:49 [notice] 28#28: exiting
+2023/03/28 14:51:49 [notice] 26#26: gracefully shutting down
+2023/03/28 14:51:49 [notice] 26#26: exiting
+2023/03/28 14:51:49 [notice] 26#26: exit
+2023/03/28 14:51:49 [notice] 28#28: exit
+2023/03/28 14:51:49 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/03/28 14:51:49 [notice] 1#1: worker process 34 exited with code 0
+2023/03/28 14:51:49 [notice] 1#1: worker process 29 exited with code 0
+2023/03/28 14:51:49 [notice] 1#1: worker process 32 exited with code 0
+2023/03/28 14:51:49 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:51:49 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/28 14:51:49 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/28 14:51:49 [notice] 1#1: worker process 23 exited with code 0
+2023/03/28 14:51:49 [notice] 1#1: worker process 27 exited with code 0
+2023/03/28 14:51:49 [notice] 1#1: worker process 28 exited with code 0
+2023/03/28 14:51:49 [notice] 1#1: worker process 33 exited with code 0
+2023/03/28 14:51:49 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:51:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/28 14:51:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/28 14:51:49 [notice] 1#1: worker process 25 exited with code 0
+2023/03/28 14:51:49 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:51:49 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/28 14:51:49 [notice] 1#1: worker process 26 exited with code 0
+2023/03/28 14:51:49 [notice] 1#1: worker process 30 exited with code 0
+2023/03/28 14:51:49 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:51:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/28 14:51:49 [notice] 1#1: worker process 24 exited with code 0
+2023/03/28 14:51:49 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:51:49 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/28 14:51:49 [notice] 1#1: worker process 31 exited with code 0
+2023/03/28 14:51:49 [notice] 1#1: exit
+2023/03/28 14:52:24 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/28 14:52:24 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/28 14:52:24 [notice] 1#1: using the "epoll" event method
+2023/03/28 14:52:24 [notice] 1#1: nginx/1.21.3
+2023/03/28 14:52:24 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/28 14:52:24 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/28 14:52:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/28 14:52:24 [notice] 1#1: start worker processes
+2023/03/28 14:52:24 [notice] 1#1: start worker process 22
+2023/03/28 14:52:24 [notice] 1#1: start worker process 23
+2023/03/28 14:52:24 [notice] 1#1: start worker process 24
+2023/03/28 14:52:24 [notice] 1#1: start worker process 25
+2023/03/28 14:52:24 [notice] 1#1: start worker process 26
+2023/03/28 14:52:24 [notice] 1#1: start worker process 27
+2023/03/28 14:52:24 [notice] 1#1: start worker process 28
+2023/03/28 14:52:24 [notice] 1#1: start worker process 29
+2023/03/28 14:52:24 [notice] 1#1: start worker process 30
+2023/03/28 14:52:24 [notice] 1#1: start worker process 31
+2023/03/28 14:52:24 [notice] 1#1: start worker process 32
+2023/03/28 14:52:24 [notice] 1#1: start worker process 33
+2023/03/28 14:53:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/28 14:53:26 [notice] 23#23: gracefully shutting down
+2023/03/28 14:53:26 [notice] 22#22: gracefully shutting down
+2023/03/28 14:53:26 [notice] 24#24: gracefully shutting down
+2023/03/28 14:53:26 [notice] 25#25: gracefully shutting down
+2023/03/28 14:53:26 [notice] 26#26: gracefully shutting down
+2023/03/28 14:53:26 [notice] 27#27: gracefully shutting down
+2023/03/28 14:53:26 [notice] 28#28: gracefully shutting down
+2023/03/28 14:53:26 [notice] 29#29: gracefully shutting down
+2023/03/28 14:53:26 [notice] 23#23: exiting
+2023/03/28 14:53:26 [notice] 31#31: gracefully shutting down
+2023/03/28 14:53:26 [notice] 22#22: exiting
+2023/03/28 14:53:26 [notice] 33#33: gracefully shutting down
+2023/03/28 14:53:26 [notice] 24#24: exiting
+2023/03/28 14:53:26 [notice] 25#25: exiting
+2023/03/28 14:53:26 [notice] 26#26: exiting
+2023/03/28 14:53:26 [notice] 27#27: exiting
+2023/03/28 14:53:26 [notice] 28#28: exiting
+2023/03/28 14:53:26 [notice] 29#29: exiting
+2023/03/28 14:53:26 [notice] 31#31: exiting
+2023/03/28 14:53:26 [notice] 33#33: exiting
+2023/03/28 14:53:26 [notice] 22#22: exit
+2023/03/28 14:53:26 [notice] 23#23: exit
+2023/03/28 14:53:26 [notice] 26#26: exit
+2023/03/28 14:53:26 [notice] 25#25: exit
+2023/03/28 14:53:26 [notice] 27#27: exit
+2023/03/28 14:53:26 [notice] 28#28: exit
+2023/03/28 14:53:26 [notice] 24#24: exit
+2023/03/28 14:53:26 [notice] 31#31: exit
+2023/03/28 14:53:26 [notice] 33#33: exit
+2023/03/28 14:53:26 [notice] 29#29: exit
+2023/03/28 14:53:26 [notice] 32#32: gracefully shutting down
+2023/03/28 14:53:26 [notice] 30#30: gracefully shutting down
+2023/03/28 14:53:26 [notice] 32#32: exiting
+2023/03/28 14:53:26 [notice] 30#30: exiting
+2023/03/28 14:53:26 [notice] 32#32: exit
+2023/03/28 14:53:26 [notice] 30#30: exit
+2023/03/28 14:53:26 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/28 14:53:26 [notice] 1#1: worker process 22 exited with code 0
+2023/03/28 14:53:26 [notice] 1#1: worker process 25 exited with code 0
+2023/03/28 14:53:26 [notice] 1#1: worker process 26 exited with code 0
+2023/03/28 14:53:26 [notice] 1#1: worker process 27 exited with code 0
+2023/03/28 14:53:26 [notice] 1#1: worker process 32 exited with code 0
+2023/03/28 14:53:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:53:26 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/28 14:53:26 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/28 14:53:26 [notice] 1#1: worker process 30 exited with code 0
+2023/03/28 14:53:26 [notice] 1#1: worker process 28 exited with code 0
+2023/03/28 14:53:26 [notice] 1#1: worker process 33 exited with code 0
+2023/03/28 14:53:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:53:26 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/28 14:53:26 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/28 14:53:26 [notice] 1#1: worker process 29 exited with code 0
+2023/03/28 14:53:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:53:26 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/28 14:53:26 [notice] 1#1: worker process 23 exited with code 0
+2023/03/28 14:53:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:53:26 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/28 14:53:26 [notice] 1#1: worker process 31 exited with code 0
+2023/03/28 14:53:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:53:26 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/28 14:53:26 [notice] 1#1: worker process 24 exited with code 0
+2023/03/28 14:53:26 [notice] 1#1: exit
+2023/03/28 14:54:29 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/28 14:54:29 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/28 14:54:29 [notice] 1#1: using the "epoll" event method
+2023/03/28 14:54:29 [notice] 1#1: nginx/1.21.3
+2023/03/28 14:54:29 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/28 14:54:29 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/28 14:54:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/28 14:54:29 [notice] 1#1: start worker processes
+2023/03/28 14:54:29 [notice] 1#1: start worker process 22
+2023/03/28 14:54:29 [notice] 1#1: start worker process 23
+2023/03/28 14:54:29 [notice] 1#1: start worker process 24
+2023/03/28 14:54:29 [notice] 1#1: start worker process 25
+2023/03/28 14:54:29 [notice] 1#1: start worker process 26
+2023/03/28 14:54:29 [notice] 1#1: start worker process 27
+2023/03/28 14:54:29 [notice] 1#1: start worker process 28
+2023/03/28 14:54:29 [notice] 1#1: start worker process 29
+2023/03/28 14:54:29 [notice] 1#1: start worker process 30
+2023/03/28 14:54:29 [notice] 1#1: start worker process 31
+2023/03/28 14:54:29 [notice] 1#1: start worker process 32
+2023/03/28 14:54:29 [notice] 1#1: start worker process 33
+2023/03/28 14:54:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/28 14:54:47 [notice] 22#22: gracefully shutting down
+2023/03/28 14:54:47 [notice] 24#24: gracefully shutting down
+2023/03/28 14:54:47 [notice] 25#25: gracefully shutting down
+2023/03/28 14:54:47 [notice] 27#27: gracefully shutting down
+2023/03/28 14:54:47 [notice] 22#22: exiting
+2023/03/28 14:54:47 [notice] 24#24: exiting
+2023/03/28 14:54:47 [notice] 23#23: gracefully shutting down
+2023/03/28 14:54:47 [notice] 25#25: exiting
+2023/03/28 14:54:47 [notice] 33#33: gracefully shutting down
+2023/03/28 14:54:47 [notice] 27#27: exiting
+2023/03/28 14:54:47 [notice] 23#23: exiting
+2023/03/28 14:54:47 [notice] 33#33: exiting
+2023/03/28 14:54:47 [notice] 25#25: exit
+2023/03/28 14:54:47 [notice] 22#22: exit
+2023/03/28 14:54:47 [notice] 24#24: exit
+2023/03/28 14:54:47 [notice] 27#27: exit
+2023/03/28 14:54:47 [notice] 23#23: exit
+2023/03/28 14:54:47 [notice] 33#33: exit
+2023/03/28 14:54:47 [notice] 28#28: gracefully shutting down
+2023/03/28 14:54:47 [notice] 28#28: exiting
+2023/03/28 14:54:47 [notice] 28#28: exit
+2023/03/28 14:54:47 [notice] 26#26: gracefully shutting down
+2023/03/28 14:54:47 [notice] 26#26: exiting
+2023/03/28 14:54:47 [notice] 26#26: exit
+2023/03/28 14:54:47 [notice] 29#29: gracefully shutting down
+2023/03/28 14:54:47 [notice] 29#29: exiting
+2023/03/28 14:54:47 [notice] 29#29: exit
+2023/03/28 14:54:47 [notice] 32#32: gracefully shutting down
+2023/03/28 14:54:47 [notice] 32#32: exiting
+2023/03/28 14:54:47 [notice] 32#32: exit
+2023/03/28 14:54:47 [notice] 30#30: gracefully shutting down
+2023/03/28 14:54:47 [notice] 30#30: exiting
+2023/03/28 14:54:47 [notice] 30#30: exit
+2023/03/28 14:54:47 [notice] 31#31: gracefully shutting down
+2023/03/28 14:54:47 [notice] 31#31: exiting
+2023/03/28 14:54:47 [notice] 31#31: exit
+2023/03/28 14:54:47 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/28 14:54:47 [notice] 1#1: worker process 33 exited with code 0
+2023/03/28 14:54:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:54:47 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/28 14:54:47 [notice] 1#1: worker process 27 exited with code 0
+2023/03/28 14:54:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:54:47 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/28 14:54:47 [notice] 1#1: worker process 23 exited with code 0
+2023/03/28 14:54:47 [notice] 1#1: worker process 24 exited with code 0
+2023/03/28 14:54:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:54:47 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/28 14:54:47 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/28 14:54:47 [notice] 1#1: worker process 29 exited with code 0
+2023/03/28 14:54:47 [notice] 1#1: worker process 28 exited with code 0
+2023/03/28 14:54:47 [notice] 1#1: worker process 26 exited with code 0
+2023/03/28 14:54:47 [notice] 1#1: worker process 30 exited with code 0
+2023/03/28 14:54:47 [notice] 1#1: worker process 32 exited with code 0
+2023/03/28 14:54:47 [notice] 1#1: worker process 31 exited with code 0
+2023/03/28 14:54:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:54:47 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/28 14:54:47 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/28 14:54:47 [notice] 1#1: worker process 22 exited with code 0
+2023/03/28 14:54:47 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/03/28 14:54:47 [notice] 1#1: worker process 25 exited with code 0
+2023/03/28 14:54:47 [notice] 1#1: exit
+2023/03/28 14:55:22 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/28 14:55:22 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/28 14:55:22 [notice] 1#1: using the "epoll" event method
+2023/03/28 14:55:22 [notice] 1#1: nginx/1.21.3
+2023/03/28 14:55:22 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/28 14:55:22 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/28 14:55:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/28 14:55:22 [notice] 1#1: start worker processes
+2023/03/28 14:55:22 [notice] 1#1: start worker process 23
+2023/03/28 14:55:22 [notice] 1#1: start worker process 24
+2023/03/28 14:55:22 [notice] 1#1: start worker process 25
+2023/03/28 14:55:22 [notice] 1#1: start worker process 26
+2023/03/28 14:55:22 [notice] 1#1: start worker process 27
+2023/03/28 14:55:22 [notice] 1#1: start worker process 28
+2023/03/28 14:55:22 [notice] 1#1: start worker process 29
+2023/03/28 14:55:22 [notice] 1#1: start worker process 30
+2023/03/28 14:55:22 [notice] 1#1: start worker process 31
+2023/03/28 14:55:22 [notice] 1#1: start worker process 32
+2023/03/28 14:55:22 [notice] 1#1: start worker process 33
+2023/03/28 14:55:22 [notice] 1#1: start worker process 34
+2023/03/28 14:57:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/28 14:57:14 [notice] 23#23: gracefully shutting down
+2023/03/28 14:57:14 [notice] 24#24: gracefully shutting down
+2023/03/28 14:57:14 [notice] 25#25: gracefully shutting down
+2023/03/28 14:57:14 [notice] 27#27: gracefully shutting down
+2023/03/28 14:57:14 [notice] 26#26: gracefully shutting down
+2023/03/28 14:57:14 [notice] 29#29: gracefully shutting down
+2023/03/28 14:57:14 [notice] 28#28: gracefully shutting down
+2023/03/28 14:57:14 [notice] 23#23: exiting
+2023/03/28 14:57:14 [notice] 24#24: exiting
+2023/03/28 14:57:14 [notice] 25#25: exiting
+2023/03/28 14:57:14 [notice] 27#27: exiting
+2023/03/28 14:57:14 [notice] 26#26: exiting
+2023/03/28 14:57:14 [notice] 31#31: gracefully shutting down
+2023/03/28 14:57:14 [notice] 29#29: exiting
+2023/03/28 14:57:14 [notice] 28#28: exiting
+2023/03/28 14:57:14 [notice] 31#31: exiting
+2023/03/28 14:57:14 [notice] 30#30: gracefully shutting down
+2023/03/28 14:57:14 [notice] 30#30: exiting
+2023/03/28 14:57:14 [notice] 25#25: exit
+2023/03/28 14:57:14 [notice] 27#27: exit
+2023/03/28 14:57:14 [notice] 26#26: exit
+2023/03/28 14:57:14 [notice] 31#31: exit
+2023/03/28 14:57:14 [notice] 29#29: exit
+2023/03/28 14:57:14 [notice] 23#23: exit
+2023/03/28 14:57:14 [notice] 28#28: exit
+2023/03/28 14:57:14 [notice] 30#30: exit
+2023/03/28 14:57:14 [notice] 34#34: gracefully shutting down
+2023/03/28 14:57:14 [notice] 34#34: exiting
+2023/03/28 14:57:14 [notice] 34#34: exit
+2023/03/28 14:57:14 [notice] 24#24: exit
+2023/03/28 14:57:14 [notice] 32#32: gracefully shutting down
+2023/03/28 14:57:14 [notice] 32#32: exiting
+2023/03/28 14:57:14 [notice] 32#32: exit
+2023/03/28 14:57:14 [notice] 33#33: gracefully shutting down
+2023/03/28 14:57:14 [notice] 33#33: exiting
+2023/03/28 14:57:14 [notice] 33#33: exit
+2023/03/28 14:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/03/28 14:57:14 [notice] 1#1: worker process 24 exited with code 0
+2023/03/28 14:57:14 [notice] 1#1: worker process 25 exited with code 0
+2023/03/28 14:57:14 [notice] 1#1: worker process 28 exited with code 0
+2023/03/28 14:57:14 [notice] 1#1: worker process 32 exited with code 0
+2023/03/28 14:57:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/03/28 14:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/03/28 14:57:14 [notice] 1#1: worker process 27 exited with code 0
+2023/03/28 14:57:14 [notice] 1#1: worker process 33 exited with code 0
+2023/03/28 14:57:14 [notice] 1#1: worker process 34 exited with code 0
+2023/03/28 14:57:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/28 14:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/28 14:57:14 [notice] 1#1: worker process 26 exited with code 0
+2023/03/28 14:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/28 14:57:14 [notice] 1#1: worker process 23 exited with code 0
+2023/03/28 14:57:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:57:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/28 14:57:14 [notice] 1#1: worker process 30 exited with code 0
+2023/03/28 14:57:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:57:14 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/28 14:57:14 [notice] 1#1: worker process 31 exited with code 0
+2023/03/28 14:57:14 [notice] 1#1: worker process 29 exited with code 0
+2023/03/28 14:57:14 [notice] 1#1: exit
+2023/03/28 14:57:41 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/28 14:57:41 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/28 14:57:41 [notice] 1#1: using the "epoll" event method
+2023/03/28 14:57:41 [notice] 1#1: nginx/1.21.3
+2023/03/28 14:57:41 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/28 14:57:41 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/28 14:57:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/28 14:57:41 [notice] 1#1: start worker processes
+2023/03/28 14:57:41 [notice] 1#1: start worker process 22
+2023/03/28 14:57:41 [notice] 1#1: start worker process 23
+2023/03/28 14:57:41 [notice] 1#1: start worker process 24
+2023/03/28 14:57:41 [notice] 1#1: start worker process 25
+2023/03/28 14:57:41 [notice] 1#1: start worker process 26
+2023/03/28 14:57:41 [notice] 1#1: start worker process 27
+2023/03/28 14:57:41 [notice] 1#1: start worker process 28
+2023/03/28 14:57:41 [notice] 1#1: start worker process 29
+2023/03/28 14:57:41 [notice] 1#1: start worker process 30
+2023/03/28 14:57:41 [notice] 1#1: start worker process 31
+2023/03/28 14:57:41 [notice] 1#1: start worker process 32
+2023/03/28 14:57:41 [notice] 1#1: start worker process 33
+2023/03/28 14:58:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/28 14:58:14 [notice] 26#26: gracefully shutting down
+2023/03/28 14:58:14 [notice] 26#26: exiting
+2023/03/28 14:58:14 [notice] 26#26: exit
+2023/03/28 14:58:14 [notice] 25#25: gracefully shutting down
+2023/03/28 14:58:14 [notice] 25#25: exiting
+2023/03/28 14:58:14 [notice] 25#25: exit
+2023/03/28 14:58:14 [notice] 22#22: gracefully shutting down
+2023/03/28 14:58:14 [notice] 22#22: exiting
+2023/03/28 14:58:14 [notice] 22#22: exit
+2023/03/28 14:58:14 [notice] 23#23: gracefully shutting down
+2023/03/28 14:58:14 [notice] 23#23: exiting
+2023/03/28 14:58:14 [notice] 23#23: exit
+2023/03/28 14:58:14 [notice] 24#24: gracefully shutting down
+2023/03/28 14:58:14 [notice] 24#24: exiting
+2023/03/28 14:58:14 [notice] 24#24: exit
+2023/03/28 14:58:14 [notice] 27#27: gracefully shutting down
+2023/03/28 14:58:14 [notice] 28#28: gracefully shutting down
+2023/03/28 14:58:14 [notice] 29#29: gracefully shutting down
+2023/03/28 14:58:14 [notice] 30#30: gracefully shutting down
+2023/03/28 14:58:14 [notice] 31#31: gracefully shutting down
+2023/03/28 14:58:14 [notice] 33#33: gracefully shutting down
+2023/03/28 14:58:14 [notice] 27#27: exiting
+2023/03/28 14:58:14 [notice] 28#28: exiting
+2023/03/28 14:58:14 [notice] 29#29: exiting
+2023/03/28 14:58:14 [notice] 30#30: exiting
+2023/03/28 14:58:14 [notice] 33#33: exiting
+2023/03/28 14:58:14 [notice] 31#31: exiting
+2023/03/28 14:58:14 [notice] 28#28: exit
+2023/03/28 14:58:14 [notice] 29#29: exit
+2023/03/28 14:58:14 [notice] 27#27: exit
+2023/03/28 14:58:14 [notice] 30#30: exit
+2023/03/28 14:58:14 [notice] 33#33: exit
+2023/03/28 14:58:14 [notice] 31#31: exit
+2023/03/28 14:58:14 [notice] 32#32: gracefully shutting down
+2023/03/28 14:58:14 [notice] 32#32: exiting
+2023/03/28 14:58:14 [notice] 32#32: exit
+2023/03/28 14:58:14 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/03/28 14:58:14 [notice] 1#1: worker process 28 exited with code 0
+2023/03/28 14:58:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:58:14 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/28 14:58:14 [notice] 1#1: worker process 29 exited with code 0
+2023/03/28 14:58:14 [notice] 1#1: worker process 30 exited with code 0
+2023/03/28 14:58:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:58:14 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/28 14:58:15 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/28 14:58:15 [notice] 1#1: worker process 22 exited with code 0
+2023/03/28 14:58:15 [notice] 1#1: worker process 23 exited with code 0
+2023/03/28 14:58:15 [notice] 1#1: worker process 25 exited with code 0
+2023/03/28 14:58:15 [notice] 1#1: worker process 26 exited with code 0
+2023/03/28 14:58:15 [notice] 1#1: worker process 27 exited with code 0
+2023/03/28 14:58:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:58:15 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/28 14:58:15 [notice] 1#1: worker process 24 exited with code 0
+2023/03/28 14:58:15 [notice] 1#1: worker process 33 exited with code 0
+2023/03/28 14:58:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 14:58:15 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/28 14:58:15 [notice] 1#1: worker process 31 exited with code 0
+2023/03/28 14:58:15 [notice] 1#1: worker process 32 exited with code 0
+2023/03/28 14:58:15 [notice] 1#1: exit
+2023/03/28 14:58:37 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/28 14:58:37 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/28 14:58:37 [notice] 1#1: using the "epoll" event method
+2023/03/28 14:58:37 [notice] 1#1: nginx/1.21.3
+2023/03/28 14:58:37 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/28 14:58:37 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/28 14:58:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/28 14:58:37 [notice] 1#1: start worker processes
+2023/03/28 14:58:37 [notice] 1#1: start worker process 22
+2023/03/28 14:58:37 [notice] 1#1: start worker process 23
+2023/03/28 14:58:37 [notice] 1#1: start worker process 24
+2023/03/28 14:58:37 [notice] 1#1: start worker process 25
+2023/03/28 14:58:37 [notice] 1#1: start worker process 26
+2023/03/28 14:58:37 [notice] 1#1: start worker process 27
+2023/03/28 14:58:37 [notice] 1#1: start worker process 28
+2023/03/28 14:58:37 [notice] 1#1: start worker process 29
+2023/03/28 14:58:37 [notice] 1#1: start worker process 30
+2023/03/28 14:58:37 [notice] 1#1: start worker process 31
+2023/03/28 14:58:37 [notice] 1#1: start worker process 32
+2023/03/28 14:58:37 [notice] 1#1: start worker process 33
+2023/03/28 15:01:21 [error] 27#27: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:02:22 [error] 27#27: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:02:37 [error] 27#27: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:02:38 [error] 27#27: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:03:53 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:04:41 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes2 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:05:11 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes2 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:05:18 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes2 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:05:29 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes2 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:05:31 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes2 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:05:51 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes2 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:05:54 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:06:48 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897", referrer: "http://localhost:8897/tes1"
+2023/03/28 15:06:50 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:06:54 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:07:33 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:07:34 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:07:36 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:08:13 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897", referrer: "http://localhost:8897/tes1"
+2023/03/28 15:08:14 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:08:47 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897", referrer: "http://localhost:8897/tes1"
+2023/03/28 15:08:48 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:08:51 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes2 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:08:55 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:09:23 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /__open-in-editor?file=%2Fvar%2Fwww%2FnewTestProject%2Fresources%2Fjs%2Frouter%2Findex.js%3A2%3A19 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897", referrer: "http://localhost:8897/tes1"
+2023/03/28 15:09:34 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897", referrer: "http://localhost:8897/tes1"
+2023/03/28 15:09:44 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897", referrer: "http://localhost:8897/tes1"
+2023/03/28 15:09:46 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:09:46 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:09:51 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897", referrer: "http://localhost:8897/tes1"
+2023/03/28 15:09:55 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897", referrer: "http://localhost:8897/tes1"
+2023/03/28 15:09:58 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897", referrer: "http://localhost:8897/tes1"
+2023/03/28 15:10:03 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:10:12 [error] 27#27: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.5:9000", host: "localhost:8897"
+2023/03/28 15:10:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/03/28 15:10:22 [notice] 27#27: gracefully shutting down
+2023/03/28 15:10:22 [notice] 26#26: gracefully shutting down
+2023/03/28 15:10:22 [notice] 29#29: gracefully shutting down
+2023/03/28 15:10:22 [notice] 23#23: gracefully shutting down
+2023/03/28 15:10:22 [notice] 26#26: exiting
+2023/03/28 15:10:22 [notice] 29#29: exiting
+2023/03/28 15:10:22 [notice] 23#23: exiting
+2023/03/28 15:10:22 [notice] 23#23: exit
+2023/03/28 15:10:22 [notice] 26#26: exit
+2023/03/28 15:10:22 [notice] 29#29: exit
+2023/03/28 15:10:22 [notice] 31#31: gracefully shutting down
+2023/03/28 15:10:22 [notice] 31#31: exiting
+2023/03/28 15:10:22 [notice] 31#31: exit
+2023/03/28 15:10:22 [notice] 28#28: gracefully shutting down
+2023/03/28 15:10:22 [notice] 28#28: exiting
+2023/03/28 15:10:22 [notice] 28#28: exit
+2023/03/28 15:10:22 [notice] 33#33: gracefully shutting down
+2023/03/28 15:10:22 [notice] 33#33: exiting
+2023/03/28 15:10:22 [notice] 33#33: exit
+2023/03/28 15:10:22 [notice] 25#25: gracefully shutting down
+2023/03/28 15:10:22 [notice] 30#30: gracefully shutting down
+2023/03/28 15:10:22 [notice] 25#25: exiting
+2023/03/28 15:10:22 [notice] 30#30: exiting
+2023/03/28 15:10:22 [notice] 30#30: exit
+2023/03/28 15:10:22 [notice] 25#25: exit
+2023/03/28 15:10:22 [notice] 32#32: gracefully shutting down
+2023/03/28 15:10:22 [notice] 32#32: exiting
+2023/03/28 15:10:22 [notice] 32#32: exit
+2023/03/28 15:10:22 [notice] 24#24: gracefully shutting down
+2023/03/28 15:10:22 [notice] 24#24: exiting
+2023/03/28 15:10:22 [notice] 24#24: exit
+2023/03/28 15:10:22 [notice] 22#22: gracefully shutting down
+2023/03/28 15:10:22 [notice] 22#22: exiting
+2023/03/28 15:10:22 [notice] 22#22: exit
+2023/03/28 15:10:22 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/03/28 15:10:22 [notice] 1#1: worker process 23 exited with code 0
+2023/03/28 15:10:22 [notice] 1#1: worker process 31 exited with code 0
+2023/03/28 15:10:22 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 15:10:22 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/03/28 15:10:22 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/03/28 15:10:22 [notice] 1#1: worker process 26 exited with code 0
+2023/03/28 15:10:22 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 15:10:22 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/03/28 15:10:22 [notice] 1#1: worker process 22 exited with code 0
+2023/03/28 15:10:22 [notice] 1#1: worker process 24 exited with code 0
+2023/03/28 15:10:22 [notice] 1#1: worker process 30 exited with code 0
+2023/03/28 15:10:22 [notice] 1#1: worker process 32 exited with code 0
+2023/03/28 15:10:22 [notice] 1#1: worker process 25 exited with code 0
+2023/03/28 15:10:22 [notice] 1#1: worker process 28 exited with code 0
+2023/03/28 15:10:22 [notice] 1#1: worker process 33 exited with code 0
+2023/03/28 15:10:22 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 15:10:22 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/03/28 15:10:22 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/03/28 15:10:22 [notice] 1#1: worker process 29 exited with code 0
+2023/03/28 15:10:22 [notice] 1#1: signal 29 (SIGIO) received
+2023/03/28 15:10:23 [notice] 27#27: exiting
+2023/03/28 15:10:23 [notice] 27#27: exit
+2023/03/28 15:10:23 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/03/28 15:10:23 [notice] 1#1: worker process 27 exited with code 0
+2023/03/28 15:10:23 [notice] 1#1: exit
+2023/03/28 15:10:52 [warn] 1#1: conflicting server name "127.0.0.1" on 0.0.0.0:80, ignored
+2023/03/28 15:10:52 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/03/28 15:10:52 [notice] 1#1: using the "epoll" event method
+2023/03/28 15:10:52 [notice] 1#1: nginx/1.21.3
+2023/03/28 15:10:52 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2023/03/28 15:10:52 [notice] 1#1: OS: Linux 5.4.0-144-generic
+2023/03/28 15:10:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/28 15:10:52 [notice] 1#1: start worker processes
+2023/03/28 15:10:52 [notice] 1#1: start worker process 22
+2023/03/28 15:10:52 [notice] 1#1: start worker process 23
+2023/03/28 15:10:52 [notice] 1#1: start worker process 24
+2023/03/28 15:10:52 [notice] 1#1: start worker process 25
+2023/03/28 15:10:52 [notice] 1#1: start worker process 26
+2023/03/28 15:10:52 [notice] 1#1: start worker process 27
+2023/03/28 15:10:52 [notice] 1#1: start worker process 28
+2023/03/28 15:10:52 [notice] 1#1: start worker process 29
+2023/03/28 15:10:52 [notice] 1#1: start worker process 30
+2023/03/28 15:10:52 [notice] 1#1: start worker process 31
+2023/03/28 15:10:52 [notice] 1#1: start worker process 32
+2023/03/28 15:10:52 [notice] 1#1: start worker process 33
+2023/03/28 15:10:58 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.4:9000", host: "localhost:8897"
+2023/03/28 15:11:03 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.250.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 192.168.250.1, server: 127.0.0.1, request: "GET /tes1 HTTP/1.1", upstream: "fastcgi://192.168.250.4:9000", host: "localhost:8897"
