@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RecipeController;
+use App\Http\Controllers\HomeController;
 
 Auth::routes();
 
@@ -13,7 +14,7 @@ Route::prefix('recipe')->group(function () {
 });
 
 // Какая то магия для фронта
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 Route::get('{all}', function () {
     return view('home');
