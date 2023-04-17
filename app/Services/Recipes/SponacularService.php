@@ -8,6 +8,7 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Log;
+use Nette\Utils\Paginator;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Throwable;
 
@@ -58,12 +59,14 @@ class SponacularService implements RecipesInterface
      * Поиск рецептов по строке
      * @param string $string поисковая строка
      */
-    public function search(string $string): Collection
+    public function search(string $string, Paginator $paginator): Collection
     {
         $params = [
             'query' => self::translateSearchString($string),
             'addRecipeInformation' => true,
             'addRecipeNutrition' => true,
+            'number' => $paginator->getItemsPerPage(),
+            'offset' => $paginator->getPage() * $paginator->getItemsPerPage(),
         ];
 
         $recipesList = $this->builder('GET', 'complexSearch', $params);

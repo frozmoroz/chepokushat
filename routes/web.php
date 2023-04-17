@@ -1,23 +1,18 @@
 <?php
 
-use App\Http\Controllers\TestController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
-Route::get('/', [TestController::class, 'index']);
+use App\Http\Controllers\RecipeController;
 
 Auth::routes();
 
+// Основные роуты
+Route::prefix('recipe')->group(function () {
+    Route::get('/{id}', [RecipeController::class, 'find']);
+    Route::get('/search/{string}', [RecipeController::class, 'search']);
+});
+
+// Какая то магия для фронта
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('{all}', function () {
